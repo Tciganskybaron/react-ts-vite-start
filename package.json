@@ -39,16 +39,8 @@
     "vite": "^4.5.0",
     "vitest": "^0.34.6"
   },
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged"
-		}
-	},
 	"lint-staged": {
-		 "*.jsx": [
-			"npm run lint:fix",
-			"npm run format",
-			"git add"
-		]
+		"src/**/*.{js,jsx,ts,tsx}": "npm run lint:fix",
+		"src/**/*.{js,jsx,ts,tsx,css,scss,md}": "npm run format"
 	}
 }

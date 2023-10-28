@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom';
 import styles from './NotFound.module.css';
 
 function NotFound() {
-	console.log(test);
-	sdfsfd
 	return (
 		<div className={styles.root}>
 			<h1>Not Found</h1>

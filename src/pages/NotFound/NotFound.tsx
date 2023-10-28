@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from './NotFound.module.css';
 
 function NotFound() {
-	console.log('1');
+	console.log(test);
 	return (
 		<div className={styles.root}>
 			<h1>Not Found</h1>

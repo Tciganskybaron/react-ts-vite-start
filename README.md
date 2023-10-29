@@ -1,1 +1,1 @@
-# raact-ts-vite-start
+# react-ts-vite-start

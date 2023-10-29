@@ -4,6 +4,7 @@ import styles from './Home.module.css';
 
 function Home() {
 	const [count, setCount] = useState<number>(0);
+
 	return (
 		<div className={styles.root}>
 			<h1>Hello World</h1>
